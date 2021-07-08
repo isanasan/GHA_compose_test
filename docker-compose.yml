@@ -7,3 +7,5 @@ services:
       - "4430:443"
     tty: true
     stdin_open: true
+    volumes:
+      - ./:/var/www/html

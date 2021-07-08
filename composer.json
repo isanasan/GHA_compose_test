@@ -1,0 +1,14 @@
+{
+    "name": "isanasan/ghacomposetest",
+    "description": "docker compose command test in GHA",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    }
+}
